@@ -6,3 +6,20 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: cadetblue;
+}
+/*---------------TOPO---------------------*/
+header.topo{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+    padding: 50px 0;
+}
+header.topo img{
+    width: 40px;
+    height: 40px;
+}
+
+/*---BARRA DE PESQUISA--*/  
