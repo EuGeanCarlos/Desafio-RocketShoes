@@ -9,17 +9,32 @@
 body{
     background-color: cadetblue;
 }
-/*---------------TOPO---------------------*/
+/*---------------TOPO-MENU---------------------*/
 header.topo{
     display: flex;
     justify-content: space-around;
     
     width: 100%;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 header.topo img{
     width: 40px;
     height: 40px;
+}
+nav.menu-desktop{
+   
+    margin-top: 20px;
+}
+
+nav a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: roboto;
+
 }
 
 /*---BARRA DE PESQUISA--*/  
