@@ -38,3 +38,9 @@ nav a{
 }
 
 /*---BARRA DE PESQUISA--*/  
+
+header.topo .submit-line input{ 
+    padding: 12px 30px;
+    color: #9C9696;
+    font-weight: bold;
+}
