@@ -44,3 +44,53 @@ header.topo .submit-line input{
     color: #9C9696;
     font-weight: bold;
 }
+
+/*--------- CONTEUDO PRINCIPAL--------*/
+main.conteudo-principal{
+    display: flex;
+    justify-content: space-around;
+}
+.textEndBtn{
+   width: 30%; 
+    background-color:#E5E5E5;
+}
+
+.galeria{
+    width:70%;
+    background-color: #C4C4C4;
+
+}
+.galeria .img-principal{
+   width: 100%;
+    text-align: center;
+    padding: 80px 0 20px 0;
+
+}
+.galeria .img-principal img{
+    width: 497px;
+    height: 410px;
+    
+
+}
+
+.galeria .img-secundarias{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+.galeria .img-secundarias{
+    
+}
+
+/*-----------FOOTER----------------*/
+footer.rodape{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#E5E5E5;
+}
+footer.rodape nav{
+    margin-top: 50px;
+}
