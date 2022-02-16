@@ -46,17 +46,28 @@ header.topo .submit-line input{
 }
 
 /*--------- CONTEUDO PRINCIPAL--------*/
+.conteudo-principal .textEndBtn h2{
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+
+
+
+}
+
+
 main.conteudo-principal{
     display: flex;
     justify-content: space-around;
 }
 .textEndBtn{
-   width: 30%; 
+   width: 40%; 
     background-color:#E5E5E5;
 }
 
 .galeria{
-    width:70%;
+    width:60%;
     background-color: #C4C4C4;
 
 }
