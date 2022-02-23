@@ -13,9 +13,12 @@ body{
 header.topo{
     display: flex;
     justify-content: space-around;
-    
     width: 100%;
     padding: 20px 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
 }
 header.topo img{
     width: 40px;
@@ -46,11 +49,22 @@ header.topo .submit-line input{
 }
 
 /*--------- CONTEUDO PRINCIPAL--------*/
+.conteudo-principal{
+    position: absolute;
+    z-index: 1;
+}
+
+.conteudo-principal .textEndBtn{
+    padding: 300px 50px 0 50px ;
+    
+}
+
 .conteudo-principal .textEndBtn h2{
     font-family: roboto;
     font-size: 60px;
     font-weight: 700;
     color: #000;
+    text-align: left;
 
 
 
@@ -74,7 +88,8 @@ main.conteudo-principal{
 .galeria .img-principal{
    width: 100%;
     text-align: center;
-    padding: 80px 0 20px 0;
+    padding: 300px 0 20px 0;
+    z-index: 2;
 
 }
 .galeria .img-principal img{
@@ -87,11 +102,12 @@ main.conteudo-principal{
 .galeria .img-secundarias{
     display: flex;
     justify-content: space-around;
-    gap: 10px;
-    width: 100%;
+    width: 99%;
+    text-align: center;
 }
-.galeria .img-secundarias{
-    
+.galeria .img-secundarias img{
+    width: 33.333%;
+    padding: 0 15px;
 }
 
 /*-----------FOOTER----------------*/
