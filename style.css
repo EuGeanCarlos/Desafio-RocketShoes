@@ -16,8 +16,6 @@ header.topo{
     width: 100%;
     padding: 20px 0;
     position: absolute;
-    left: 0px;
-    top: 0px;
     z-index: 2;
 }
 header.topo img{
@@ -50,7 +48,6 @@ header.topo .submit-line input{
 
 /*--------- CONTEUDO PRINCIPAL--------*/
 .conteudo-principal{
-    position: absolute;
     z-index: 1;
 }
 
@@ -89,7 +86,7 @@ main.conteudo-principal{
    width: 100%;
     text-align: center;
     padding: 300px 0 20px 0;
-    z-index: 2;
+   
 
 }
 .galeria .img-principal img{
@@ -106,18 +103,20 @@ main.conteudo-principal{
     text-align: center;
 }
 .galeria .img-secundarias img{
-    width: 33.33%;
+    width: 33.333%;
     padding: 0 15px;
 }
 
 /*-----------FOOTER----------------*/
 footer.rodape{
     width: 100%;
-    height: 110px;
+    min-height: 110px;
     display: flex;
     justify-content: space-around;
     background-color:#E5E5E5;
+    position:bottom;
+   
 }
 footer.rodape nav{
     margin-top: 50px;
-}
+} 
